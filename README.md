@@ -1,3 +1,32 @@
+# Legal Memo Analysis Project
+
+This project is designed to analyze data from legal memos using PyMuPDF, a Python library for working with PDF files. The project includes tools for extracting text, identifying key sections, and performing data analysis.
+
+## Features
+- Extract text from legal memos in PDF format.
+- Identify and analyze key sections such as headers, footers, and body text.
+- Perform keyword searches and generate summaries.
+
+## Setup
+1. Ensure Python 3.9 or later is installed.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the analysis script:
+   ```bash
+   python analyze_memo.py
+   ```
+
+## Usage
+Place your legal memos in the `memos/` directory and run the analysis script. Results will be saved in the `output/` directory.
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
+
+## License
+This project is licensed under the MIT License.
+
 # PyMuPDF
 
 **PyMuPDF** is a high performance **Python** library for data extraction, analysis, conversion & manipulation of [PDF (and other) documents](https://pymupdf.readthedocs.io/en/latest/the-basics.html#supported-file-types).
